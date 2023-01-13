@@ -1,0 +1,17 @@
+Name= vivek kumar
+D.O.B= 15-02-1998
+Hight= 167 cm
+father name= Antar singh
+mother name= sunita devi
+
+Eductions:
+
+1. 10th= Birla School pilani 65%
+2.12th=Jhunjhunu Academy School jhunjhunu 70%
+3.ITI= Gov. Collage Chirawa(Computer networking,harware) 78%
+4.B.S.c= shridhar University (pilani) 78%
+5.RHCHNA= 2year Profassional Course ,Networking,Hardware,Linux,CCNA,
+6. Frontend Developer = 1 year course ..CSS, HTML,JavaScript,React.js 
+EXPERIENCE  LETTER:
+6 month expercience from GiT solutions sikar IANT.
+1year experience ,Desktop support Enginner from (Aforserver.com Ltd Company)

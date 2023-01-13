@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sidebar{
+    background-color: rgb(171, 70, 70);
+    width: 430px;
+    height: 100vh;
+}
+.sidebar nav{
+    padding: 39px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding-top: 15px;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.main{
+    background-color: white;
+    width: 90vw;
+}
+.container{
+    display: flex;
+}
+.infoconatiner{
+    background-color: white;
+    width: 70vw;
+    height: 55vh;
+    margin: 120px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devinfo{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hello{
+    font-size: 40px;
+    color: red;
+}
+.name{
+    color: rgb(225, 240, 87);
+    font-size: 35px;
+}
+.about{
+    color: darkslategrey;
+    font-size: 27px;
+    padding-bottom: 20px;
+}
+.btn button {
+    margin-left: 16px;
+    background-color: rgb(8, 48, 136);
+    padding: 10px;
+    color: white;
+    cursor: pointer; 
+    border-radius: 6px;
+}
+
+.btn button:hover{
+    background-color: white;
+    color: rgb(47, 47, 170);
+}
+
+  
+#humanimg{
+    
+    width: 340px;
+    padding: 30px;
+}
+
+ 
+@media (max-width:501px){
+    .sidebar{
+        transform: translate(-443px,0px);
+        position: absolute;
+    }
+} 
