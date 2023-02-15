@@ -1,0 +1,39 @@
+.Virtual{
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    position: relative;
+}
+.left>:nth-child(1){
+    font-size: 2rem;
+    text-transform: uppercase;
+    display: block;
+    font-weight: bold;
+    width: 20rem;
+}
+.left>:nth-child(2){
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    display: block;
+    width: 19rem;
+}
+.left>:nth-child(3){
+    color: rgb(14, 57, 57);
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.wrapper{
+    width: 240px;
+    margin-right: 100px;
+    
+    
+    
+}

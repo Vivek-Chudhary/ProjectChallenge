@@ -1,0 +1,79 @@
+.testimonials{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+    padding: 4rem 2rem;
+}
+.wrapper{
+    display: grid;
+    display: flex;
+   justify-content: space-between;
+    width: 100%;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+.container{
+    display: flex;
+    margin-top: 160px;
+    flex-direction: column;
+    gap: 1rem;
+}
+.container>:nth-child(1){
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: block;
+
+}
+.container>:nth-child(2){
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    display: block;
+}
+
+.wrapper>img{
+    width: 25rem;
+    
+    justify-self: center;
+}
+.reviews{
+    font-size: 1.6rem;
+    color: rgb(32, 34, 37);
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.carousel{
+    width: 100%;
+}
+
+.tCarousel{
+    padding: 2rem;
+}
+
+.testimonial{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: white;
+    border-radius: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    gap: 1rem;
+    box-shadow: 0rem 1rem 3rem -50px #7d7d7d;
+}
+.testimonial>hr{
+    height: 1px;
+    width: 80%;
+    background-color: rgb(210, 217, 223);
+}
+
+
+.testimonial>:nth-child(1){
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+

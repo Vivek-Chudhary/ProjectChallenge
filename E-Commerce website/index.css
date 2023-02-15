@@ -1,0 +1,7 @@
+body{
+    margin: 0;
+    font-family: 'poppins',sans-serif;
+    background: var(--bg);
+    transition: all 3ms ease;
+    background-color:rgb(236, 199, 50)
+}
